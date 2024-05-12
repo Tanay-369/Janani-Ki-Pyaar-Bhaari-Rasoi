@@ -1,0 +1,59 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #ff6347; /* Spice color */
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+.menu-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item img {
+    max-width: 100px;
+    max-height: 100px;
+    margin-bottom: 10px;
+}
+
+.availability {
+    font-style: italic;
+    color: #777;
+    margin-top: 5px;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+.cart-item:last-child {
+    border-bottom: none;
+}
+
+.hidden {
+    display: none;
+}
