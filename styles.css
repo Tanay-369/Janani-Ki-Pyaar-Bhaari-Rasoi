@@ -12,8 +12,8 @@ body {
 }
 
 header {
-    background-color: #ff6347; /* Spice color */
-    color: #fff;
+    background-color: #f3b479; /* Spice color */
+    color: #000000;
     padding: 10px 0;
     text-align: center;
 }
@@ -23,10 +23,10 @@ section {
 }
 
 .menu-item {
-    border: 1px solid #ccc;
+    border: 1px solid #efba8c;
     padding: 10px;
     margin-bottom: 10px;
-    background-color: #fff;
+    background-color: #f3c08e;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
@@ -38,7 +38,7 @@ section {
 
 .availability {
     font-style: italic;
-    color: #777;
+    color: #000000;
     margin-top: 5px;
 }
 
@@ -46,7 +46,7 @@ section {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #cccccc;
     padding: 10px 0;
 }
 

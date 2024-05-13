@@ -44,7 +44,7 @@ function updateCart() {
         cartItemElement.classList.add('cart-item');
         cartItemElement.innerHTML = `
             <span>${item.name}</span>
-            <span>$${item.price}</span>
+            <span>₹${item.price}</span>
         `;
         cartItemsElement.appendChild(cartItemElement);
     });
@@ -54,7 +54,7 @@ function updateCart() {
 function calculateTotal() {
     const totalPrice = cart.reduce((total, item) => total + item.price, 0);
     const totalElement = document.getElementById('total-price');
-    totalElement.textContent = `Total: $${totalPrice}`;
+    totalElement.textContent = `Total: ₹${totalPrice}`;
 }
 
 document.getElementById('checkout-btn').addEventListener('click', () => {
